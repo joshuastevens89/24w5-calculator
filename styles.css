@@ -1,1 +1,49 @@
-/* add your styles the way you want them in here! */
+.calculator {
+  width: 250px;
+  margin: 50px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  border: 2px black solid;
+  background-color: yellow;
+}
+#display {
+  width: 80%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  background: rgb(247, 214, 171);
+}
+.buttons button {
+  border: 2px black solid;
+  border-radius: 10px;
+  width: 45px;
+  height: 45px;
+  margin: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: grey;
+  color: white;
+}
+
+.edits {
+  display: flex;
+  justify-content: end;
+  margin-right: 10px;
+}
+#clear {
+  background: red;
+}
+#backspace {
+  background: blue;
+}
+.operator,
+.equals {
+  background: darkslategrey;
+}
+.number {
+  background: grey;
+}
